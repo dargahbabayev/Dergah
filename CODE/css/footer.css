@@ -1,0 +1,72 @@
+#footer {
+  background: #151515;
+  padding: 86px 0px 80px 0px; }
+  #footer .container .row .col-md-3 p {
+    line-height: 48px;
+    text-transform: none;
+    color: #776b6b;
+    font-weight: 300;
+    margin-bottom: 8px;
+    line-height: 21px; }
+  #footer .container .row .col-md-3 h2 {
+    line-height: 48px;
+    text-transform: none;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 8px; }
+  #footer .container .row .col-md-3 .logo {
+    margin-bottom: 21px; }
+  #footer .container .row .col-md-3 .whiteText {
+    color: white; }
+  #footer .container .row .col-md-3 .social {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent; }
+    #footer .container .row .col-md-3 .social a {
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      background: #212121;
+      display: inline-block;
+      text-align: center;
+      line-height: 40px;
+      margin-left: 1.5px;
+      border-radius: 3px;
+      position: relative;
+      overflow: hidden; }
+  #footer .container .row .instagram {
+    margin-bottom: 25px;
+    line-height: 48px;
+    text-transform: none;
+    color: #fff;
+    font-weight: 300; }
+  #footer .container .row .subs h4 {
+    line-height: 40px;
+    color: #fff;
+    letter-spacing: -0.25px;
+    margin-bottom: 10px; }
+  #footer .container .row .subs input[type="text"], #footer .container .row .subs textarea {
+    display: block;
+    width: 100%;
+    background: #212121;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 39px;
+    padding: 0px 10px 0px 10px;
+    letter-spacing: 0.2px;
+    color: #989696;
+    border-radius: 3px;
+    border: 1px solid #212121; }
+    #footer .container .row .subs input[type="text"] input, #footer .container .row .subs textarea input {
+      position: relative; }
+    #footer .container .row .subs input[type="text"] button, #footer .container .row .subs textarea button {
+      position: absolute; }
+
+/*# sourceMappingURL=footer.css.map */
