@@ -1,0 +1,162 @@
+body {
+  height: 3000px; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px !important; } }
+#welcome {
+  margin-bottom: 100px; }
+  #welcome .welcome-row p {
+    font-weight: 400;
+    letter-spacing: 0.03px;
+    margin-bottom: 27px;
+    line-height: 28px;
+    color: #8a8a8a; }
+  #welcome .medal {
+    background-color: #333333; }
+    #welcome .medal .myclass {
+      padding: 0px; }
+    #welcome .medal .effect {
+      position: relative;
+      overflow: hidden;
+      height: 200px;
+      padding-top: 43px; }
+      #welcome .medal .effect .overlay {
+        position: absolute;
+        opacity: 0.9;
+        text-align: center;
+        padding-top: 60px;
+        background-color: #222;
+        width: 100%;
+        height: 100%;
+        transition: all .3s ease;
+        z-index: 999; }
+      #welcome .medal .effect i {
+        margin-bottom: 23px;
+        font-size: 55px;
+        line-height: normal;
+        color: #2bd383; }
+      #welcome .medal .effect h4 {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 0.25px; }
+
+#awards {
+  background-image: url("http://corpthemes.com/html/ibox/images/parallax/parallax-counters.jpg");
+  padding: 45px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 20px 0 15px; }
+  #awards .forRel .numberCounter {
+    text-align: center; }
+    #awards .forRel .numberCounter .content {
+      display: flex; }
+      #awards .forRel .numberCounter .content .forIcon {
+        background: #2bd383;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        margin-right: 16px;
+        color: #fff;
+        font-size: 24px;
+        line-height: 54px;
+        text-align: center;
+        z-index: 99999999999999999s; }
+      #awards .forRel .numberCounter .content h3 {
+        font-size: 24px;
+        line-height: 31px;
+        font-weight: 700;
+        color: #feffff;
+        text-align: left; }
+      #awards .forRel .numberCounter .content h4 {
+        font-size: 14px;
+        line-height: 20px;
+        color: #d9d9d9;
+        font-weight: 500;
+        letter-spacing: 0.3px; }
+
+#ourTeam h2 {
+  margin-bottom: 70px;
+  margin-top: 90px; }
+#ourTeam .myCard {
+  margin-bottom: 27px;
+  background-color: #f9f9f9;
+  padding-top: 10px;
+  border: none; }
+  #ourTeam .myCard h4 {
+    color: #1a1e1a;
+    margin-bottom: 7px;
+    padding-top: 65px; }
+  #ourTeam .myCard h3 {
+    font-size: 20px;
+    line-height: 31px;
+    color: #2bd383;
+    font-weight: 500;
+    margin-bottom: 6px; }
+  #ourTeam .myCard p {
+    line-height: 24px;
+    color: #717779;
+    text-align: center;
+    padding: 0px 17px 0px 17px;
+    font-size: 14px;
+    margin-bottom: 50px; }
+  #ourTeam .myCard .cardSocial {
+    padding: 0px 0px 34px 0px;
+    padding-bottom: 0px; }
+    #ourTeam .myCard .cardSocial li {
+      cursor: pointer;
+      list-style-type: none;
+      display: inline-block;
+      padding: 0 15px;
+      color: #d9d9d9; }
+      #ourTeam .myCard .cardSocial li:hover {
+        transform: scale(1.2); }
+#ourTeam .colorEffect {
+  position: relative;
+  overflow: hidden; }
+  #ourTeam .colorEffect img {
+    max-width: 100%;
+    height: auto; }
+  #ourTeam .colorEffect .overlay {
+    position: absolute;
+    opacity: 0.9;
+    text-align: center;
+    background: linear-gradient(45deg, rgba(17, 153, 142, 0.7), rgba(56, 239, 125, 0.7));
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center; }
+    #ourTeam .colorEffect .overlay .title {
+      cursor: pointer;
+      font-size: 45px;
+      display: block;
+      width: 100%;
+      text-align: center;
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.5);
+      color: white;
+      font-weight: 500; }
+
+h2 {
+  margin-bottom: 45px;
+  font-size: 36px;
+  line-height: 48px;
+  color: #1a1e1a;
+  font-weight: 500;
+  letter-spacing: 2px; }
+  h2 .colorH2 {
+    background: -webkit-linear-gradient(top left, #11998e, #38ef7d);
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    -webkit-background-clip: text; }
+
+/*# sourceMappingURL=about.css.map */

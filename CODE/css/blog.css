@@ -69,14 +69,16 @@
       color: #2bd383;
       transition: all 0.3s ease-in-out; }
   #blogMainContent .container .row .col-md-4 .row .catagories li {
-    list-style-type: none; }
+    list-style-type: none;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2dbdb; }
     #blogMainContent .container .row .col-md-4 .row .catagories li a {
       line-height: 28px;
       position: relative;
       font-weight: 500;
       padding-left: 17px;
       text-decoration: none;
-      color: #797878;
+      color: #6d6d6d;
       margin-left: 15px;
       margin-bottom: 25px; }
       #blogMainContent .container .row .col-md-4 .row .catagories li a::before {
@@ -89,5 +91,7 @@
         border-style: solid;
         border-width: 3px 0 3px 6px;
         border-color: transparent transparent transparent #000000; }
+      #blogMainContent .container .row .col-md-4 .row .catagories li a .pull-right {
+        float: right; }
 
 /*# sourceMappingURL=blog.css.map */
